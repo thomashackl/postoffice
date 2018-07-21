@@ -28,7 +28,10 @@
                         <td>{{ $i + 1 }}.</td>
                         <td>{{ $domains[$i]->domain }}</td>
                         <td>{{ $domains[$i]->created }}</td>
-                        <td></td>
+                        <td>
+                            <span class="fas fa-edit"></span>
+                            <span class="fas fa-trash"></span>
+                        </td>
                     </tr>
                 @endfor
             </tbody>
